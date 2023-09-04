@@ -23,6 +23,7 @@ public class ImprovedDialog {
 			System.out.print("Press 'y' or 'Y' to continue: ");
 			input = scanner.nextLine();
 			if (!input.equals("y") && !input.equals("Y")) {
+				scanner.close();
 				return;
 			}
 		}

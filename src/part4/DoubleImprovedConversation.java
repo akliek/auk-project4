@@ -62,6 +62,7 @@ public class DoubleImprovedConversation {
 			System.out.print("Press 'y' or 'Y' to continue: ");
 			String input = scanner.nextLine();
 			if (!input.equals("y") && !input.equals("Y")) {
+				scanner.close();
 				return;
 			}
 		}
